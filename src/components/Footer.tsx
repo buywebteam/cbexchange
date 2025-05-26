@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="bg-purple-700 text-white pt-12 pb-6">
+    <footer className="bg-green-700 text-white pt-12 pb-6">
       <div className="max-w-7xl mx-auto px-6 md:px-16 grid grid-cols-1 md:grid-cols-3 gap-20">
         {/* Logo / About */}
         <div>
-          <h3 className="text-2xl font-bold mb-4">FX Exchange</h3>
+          <h3 className="text-2xl font-bold mb-4">CB Exchange</h3>
           <p className="text-sm text-gray-200 leading-relaxed">
             Your trusted platform for fast, secure, and reliable crypto &
             giftcard exchanges — anytime, anywhere.
@@ -57,15 +57,15 @@ const Footer = () => {
             href="https://wa.me/2348012345678"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-white text-purple-700 px-5 py-2 rounded-md font-semibold text-sm hover:bg-gray-100 transition"
+            className="inline-block bg-white text-green-700 px-5 py-2 rounded-md font-semibold text-sm hover:bg-gray-100 transition"
           >
             Chat on WhatsApp
           </a>
         </div>
       </div>
 
-      <div className="mt-10 border-t border-purple-600 pt-4 text-center text-sm text-gray-300">
-        &copy; {new Date().getFullYear()} FX Exchange. All rights reserved.
+      <div className="mt-10 border-t border-green-600 pt-4 text-center text-sm text-gray-300">
+        &copy; {new Date().getFullYear()} CB Exchange. All rights reserved.
       </div>
     </footer>
   );

@@ -17,30 +17,30 @@ const Features = () => {
     {
       title: "Best Exchange Rates",
       description: "Enjoy competitive and fair exchange rates always.",
-      icon: <FaHandshake className="text-customPurple w-8 h-8" />,
+      icon: <FaHandshake className="w-8 h-8" />,
     },
     {
       title: "24/7 Support",
       description: "We’re available round-the-clock to assist you.",
-      icon: <FaHeadset className="text-customPurple w-8 h-8" />,
+      icon: <FaHeadset className="w-8 h-8" />,
     },
     {
       title: "Secure & Transparent",
       description: "Your transactions are protected and trustworthy.",
-      icon: <FaShieldAlt className="text-customPurple w-8 h-8" />,
+      icon: <FaShieldAlt className="w-8 h-8" />,
     },
     {
       title: "User-Friendly Interface",
       description: "Simple, modern platform for stress-free exchanges.",
-      icon: <FaMobileAlt className="text-customPurple w-8 h-8" />,
+      icon: <FaMobileAlt className="w-8 h-8" />,
     },
   ];
 
   return (
-    <section className="py-16 px-6 md:px-20 bg-purple-50 text-gray-800">
+    <section className="py-16 px-6 md:px-20 bg-green-50 text-gray-800">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6 text-customPurple">
-          Why Choose FX Exchange?
+          Why Choose CB Exchange?
         </h2>
         <p className="text-gray-600 mb-12">
           We offer unmatched speed, support, and security to give you the best

@@ -77,7 +77,7 @@ const SupportedAssets = () => {
           Supported Currencies & Giftcards
         </h2>
         <p className="text-gray-600 mb-12">
-          FX Exchange supports major cryptocurrencies and the most popular
+          CB Exchange supports major cryptocurrencies and the most popular
           giftcards for seamless trading.
         </p>
 
@@ -87,7 +87,7 @@ const SupportedAssets = () => {
             {cryptocurrencies.map((currency, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center gap-2 bg-gray-50 p-4 rounded-xl shadow-sm hover:shadow-md transition"
+                className="flex flex-col items-center gap-2 bg-green-50 p-4 rounded-xl shadow-sm hover:shadow-md transition"
               >
                 {currency.icon}
                 <span className="text-sm font-medium">{currency.name}</span>
@@ -102,7 +102,7 @@ const SupportedAssets = () => {
             {giftcards.map((card, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center gap-2 bg-gray-50 p-4 rounded-xl shadow-sm hover:shadow-md transition"
+                className="flex flex-col items-center gap-2 bg-green-50 p-4 rounded-xl shadow-sm hover:shadow-md transition"
               >
                 {card.icon}
                 <span className="text-sm font-medium">{card.name}</span>

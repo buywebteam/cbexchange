@@ -34,10 +34,10 @@ const WhyChooseUs = () => {
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6 text-customPurple">
-          Why Choose FX Exchange
+          About CB Exchange
         </h2>
         <p className="text-gray-600 mb-12">
-          FX Exchange is your trusted partner for secure, fast, and reliable
+          CB Exchange is your trusted partner for secure, fast, and reliable
           crypto and gift card exchanges. We prioritize your convenience,
           offering a streamlined, chat-based experience backed by real humans —
           not bots.
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-6 bg-purple-50 rounded-xl shadow hover:shadow-md transition-all"
+              className="p-6 bg-green-50 rounded-xl shadow hover:shadow-md transition-all"
             >
               <div className="mb-4">{feature.icon}</div>
               <h3 className="font-semibold text-lg mb-2">{feature.title}</h3>

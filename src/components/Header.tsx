@@ -23,8 +23,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="text-2xl font-bold text-purple-700">
-            <a href="#home">FX Exchange</a>
+          <div className="text-2xl font-bold text-green-700">
+            <a href="#home">
+              CB <span className="text-black">Exchange</span>
+            </a>
           </div>
 
           {/* Desktop Nav */}
@@ -36,8 +38,8 @@ const Navbar = () => {
                 onClick={() => handleClick(item.href)}
                 className={`transition ${
                   activeLink === item.href
-                    ? "text-purple-700 font-semibold"
-                    : "text-gray-700 hover:text-purple-700"
+                    ? "text-green-700 font-semibold"
+                    : "text-gray-700 hover:text-green-700"
                 }`}
               >
                 {item.name}
@@ -67,8 +69,8 @@ const Navbar = () => {
                 onClick={() => handleClick(item.href)}
                 className={`transition ${
                   activeLink === item.href
-                    ? "text-purple-700 font-semibold"
-                    : "text-gray-700 hover:text-purple-700"
+                    ? "text-green-700 font-semibold"
+                    : "text-gray-700 hover:text-green-700"
                 }`}
               >
                 {item.name}

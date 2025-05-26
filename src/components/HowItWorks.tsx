@@ -25,7 +25,7 @@ const HowItWorks = () => {
   return (
     <section
       id="how-it-works"
-      className="pb-16 px-6 md:px-20 bg-purple-50 text-gray-800 scroll-mt-24"
+      className="pb-16 px-6 md:px-20 bg-green-50 text-gray-800 scroll-mt-24"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6 text-customPurple">
@@ -33,7 +33,7 @@ const HowItWorks = () => {
         </h2>
         <p className="text-gray-600 mb-12">
           At{" "}
-          <span className="font-semibold text-customPurple">FX Exchange</span>,
+          <span className="font-semibold text-customPurple">CB Exchange</span>,
           exchanging crypto or giftcards is as easy as chatting with us!
         </p>
 
